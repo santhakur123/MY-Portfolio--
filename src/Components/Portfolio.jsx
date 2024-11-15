@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/design-book-table.jpeg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,29 +31,24 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Travel Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A user-friendly website HTML,CSS,Java Script for Froentend part and Node, Express for Backend Part and MongoDb for Database.. ",
+    url: "https://github.com/santhakur123/Travel-Website",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Weather  APP Widget ",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A weather app widget is made by using my skills like React Js and materialUI used  to show the weather detail of every place i have used weather api for this..",
+    url: "https://github.com/santhakur123/Weather-App-Widget",
   },
   {
-    title: "My Resume Site",
+    title: "E-commerce website",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A e-commerce type website using React,Tailwind Css for the froentend portion and Node, Express for Backend and MongoDb for the Database i am currently working on more features for this website",
+    url: "https://github.com/santhakur123/e-commerceapp",
   },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  
 ];
 
 const Portfolio = () => {
